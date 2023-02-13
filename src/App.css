@@ -50,17 +50,17 @@
   background-color: rgb(10, 158, 216);
   min-width: 20%;
   /* margin: 30px; */
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15p;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
   
 }
 .showQuery{
   padding: 70px;
-  background-color: rgba(10, 158, 216, 0.247);
+  background-color:#ffff;
   /* min-width: 20%; */
   /* margin: 30px; */
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px
 }
 .queryParameter{
   padding: 10px;
@@ -85,4 +85,8 @@ button{
 button:hover{
   background-color: rgba(0, 0, 255, 0.411);
   transition: 0.5s;
+}
+h1{
+  text-align: center;
+  color: white;
 }

@@ -7,7 +7,7 @@ function App() {
       <h1>Search your country code</h1>
       <div className="queryCountry">
         <form action="">
-          <input type='text' className='queryParameter' placeholder='Enter country'/><br/>
+          <input type='text' className='queryParameter' placeholder='Enter country' required/><br/>
           <br/>
           <button type='submit' className='search-btn'>Search</button>
         </form>

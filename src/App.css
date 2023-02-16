@@ -57,6 +57,7 @@
   border-bottom-right-radius: 35px;
   border-bottom-left-radius: 35px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 .queryParameter{
   padding: 10px;

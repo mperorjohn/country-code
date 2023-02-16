@@ -11,6 +11,7 @@ function App() {
   const handlechange = (e) =>{
     setInputData(e.target.value)
   }
+  // string
   const handlesearch = () =>{
     const countriesArray = Object.values(countries);
     const matched = countriesArray.filter((country)=> {

@@ -41,9 +41,10 @@ function App() {
       <div className="showQuery">
         {result.map((country)=>
         (<div>
-          
-          {country.name} is a country in {continents[country.continent]} with an international dialing code {country.phone} and {country.currency} as their legal tender
-        
+          <li className='list-output'>
+                {country.name} is a country in {continents[country.continent]} and  <span className='changeLook'>{country.capital}</span> as it's capital with an international dialing code <span>{country.phone}</span> and {country.currency} as their legal tender. Spoken language is {country.languages}  
+              .
+          </li>
         </div>))}
       </div>
     </div>
